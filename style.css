@@ -11,3 +11,102 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/*------  part-two section -------- */
+.part-two,.p2-service-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100vw;
+  height: 40%;
+}
+.part-two-text{
+ width:70%;
+ margin-left:7%;
+ margin-right:7%; 
+}
+.P2-hey-section,.p2-big-content{
+  font-family: Homemade Apple;
+  color:var(--blue)
+}
+.P2-name-section{
+  margin-top: 1%;
+  font-family: Barlow;
+  color: var(--rose);
+  font-size: larger;
+  font-weight: 800;
+}
+.P2-content-section{
+  font-family: Barlow;
+  text-align: justify;
+  font-weight: 400;
+}
+.P2-btn,.p2-learn-more-btn{
+  height: 4em;
+  margin-top:6%;
+  margin-left:33%;
+  width:24%;
+  align-items: center;
+  background-color:var(--rose);
+  color:white;
+  border: none;
+  cursor: pointer;
+}
+.p2-img{
+  width:30em;
+  height:36em;
+}
+
+/* ------ part-two box section ---- */
+.p2-service-section{
+  background-color: var(--blue);
+  flex-direction: column;
+  margin-top: 8%;
+  color:white;
+
+}
+.p2-small-content{
+  margin-top:10%;
+  margin-right:-3%;
+  margin-bottom: -2%;
+}
+.p2-big-content{
+  color:white;
+  font-size: 3em;
+}
+.p2-service-boxes{
+  display: flex;
+  margin-bottom: 10%;
+  margin-top:4% ;
+  justify-content: center;
+  align-items: center;
+}
+.p2-single-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin:2% 1%;
+  height:16em;
+  width:24%;
+  border: 5px solid rgb(247, 247, 247);
+  padding-top:4% ;
+}
+.p2-single-item{
+  margin:4% 12%;
+}
+.p2-single-item p{
+  font-size: small;
+  text-align: center;
+  margin-bottom: 4%;
+  line-height: 1.5em;
+  font-family: Barlow;
+}
+.p2-learn-more-btn{
+  width: 150%;
+  height:120%;
+  padding:3% 4%;
+  margin-left: -25%;
+  font-size: smaller;
+  cursor: pointer;
+}
