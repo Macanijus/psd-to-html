@@ -1,3 +1,11 @@
+:root {
+  --beige: #E1DAD3;
+  --rose: #C68F91;
+  --blue: #49667B;
+  --blue-footer: #263C4B;
+  --beige-dark: #D9BDB2;
+}
+
 * {
   margin: 0;
   padding: 0;
