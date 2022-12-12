@@ -1,9 +1,9 @@
 :root {
-  --beige: #E1DAD3;
-  --rose: #C68F91;
-  --blue: #49667B;
-  --blue-footer: #263C4B;
-  --beige-dark: #D9BDB2;
+  --beige: #e1dad3;
+  --rose: #c68f91;
+  --blue: #49667b;
+  --blue-footer: #263c4b;
+  --beige-dark: #d9bdb2;
 }
 
 * {
@@ -11,6 +11,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 
 
 .contact-container {
@@ -146,3 +147,361 @@
     width: 90%;
   }
 }
+
+/*part3 - text section with background image */
+
+.part3-background-picture {
+  display: flex;
+  width: 100%;
+  height: 700px;
+  background-image: url(./assets/girl_mountain_small.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.part3-text {
+  position: absolute;
+  top: 31%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #e1dad3;
+  height: 500px;
+  width: 60%;
+
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.part3-text-style {
+  text-transform: uppercase;
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  padding: 100px;
+  font-size: 1.3rem;
+  font-family: "Barlow";
+}
+
+.part3-arrow {
+  width: 30px;
+  height: 50px;
+  padding: 2px;
+  position: absolute;
+  bottom: calc(45% - 10px);
+  z-index: 3;
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 70px;
+  transition: opacity 0.3s ease;
+}
+#part3-left-arrow {
+  left: calc(50% - 620px);
+}
+#part3-right-arrow {
+  right: calc(50% - 620px);
+}
+
+.part3-business {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #c68f91;
+  font-family: "Barlow";
+  text-transform: lowercase;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 600px;
+}
+
+.dot-circle {
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+  border: 3px solid white;
+  margin-bottom: 600px;
+
+  display: inline-block;
+}
+
+.part3-dot {
+  text-align: center;
+}
+
+/*part3 - 3 pictures section */
+
+.part3-3pictures {
+  height: 600px;
+}
+
+.part3-blog {
+  width: 800px;
+  height: 400px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 680px;
+}
+
+.part3-box {
+  margin: 10px;
+  width: 410px;
+  height: 300px;
+
+  border: 1px solid lightgray;
+}
+.part3-img2 {
+  width: 380px;
+  height: 200px;
+  display: flex;
+}
+.part3-latest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 90px;
+}
+
+.part3-h3 {
+  color: #49667b;
+  font-family: "Barlow";
+  letter-spacing: 3px;
+}
+
+.part3-blog-style {
+  font-family: "Homemade Apple";
+  font-size: 3.9rem;
+  color: #d9bdb2;
+  opacity: 0.4;
+}
+
+.part3-insidetext {
+  color: #c68f91;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px 26px auto;
+  font-size: 23px;
+}
+
+.part3-box p {
+  font-family: "Barlow";
+}
+
+
+/*------  part-two section -------- */
+.part-two,.p2-service-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100vw;
+  height: 40%;
+}
+.part-two-text{
+ width:70%;
+ margin-left:7%;
+ margin-right:7%; 
+}
+.P2-hey-section,.p2-big-content{
+  font-family: Homemade Apple;
+  color:var(--blue)
+}
+.P2-name-section{
+  margin-top: 1%;
+  font-family: Barlow;
+  color: var(--rose);
+  font-size: larger;
+  font-weight: 800;
+}
+.P2-content-section{
+  font-family: Barlow;
+  text-align: justify;
+  font-weight: 400;
+}
+.P2-btn,.p2-learn-more-btn{
+  height: 4em;
+  margin-top:6%;
+  margin-left:33%;
+  width:24%;
+  align-items: center;
+  background-color:var(--rose);
+  color:white;
+  border: none;
+  cursor: pointer;
+}
+.p2-img{
+  width:30em;
+  height:36em;
+}
+
+/* ------ part-two box section ---- */
+.p2-service-section{
+  background-color: var(--blue);
+  flex-direction: column;
+  margin-top: 8%;
+  color:white;
+
+}
+.p2-small-content{
+  margin-top:10%;
+  margin-right:-3%;
+  margin-bottom: -2%;
+}
+.p2-big-content{
+  color:white;
+  font-size: 3em;
+}
+.p2-service-boxes{
+  display: flex;
+  margin-bottom: 10%;
+  margin-top:4% ;
+  justify-content: center;
+  align-items: center;
+}
+.p2-single-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin:2% 1%;
+  height:16em;
+  width:24%;
+  border: 5px solid rgb(247, 247, 247);
+  padding-top:4% ;
+}
+.p2-single-item{
+  margin:4% 12%;
+}
+.p2-single-item p{
+  font-size: small;
+  text-align: center;
+  margin-bottom: 4%;
+  line-height: 1.5em;
+  font-family: Barlow;
+}
+.p2-learn-more-btn{
+  width: 150%;
+  height:120%;
+  padding:3% 4%;
+  margin-left: -25%;
+  font-size: smaller;
+  cursor: pointer;
+}
+
+.header{
+  background-image: url('./assets/girl_mountain_small.png');
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.h1_header{
+  font-family: 'Kristi';
+  color: var(--blue);
+  font-size: 4em;
+  font-weight:100;
+
+}
+
+.ul_header{
+  list-style-type: none;
+  margin-top: 1.5em;
+  margin-left: 5em;
+  padding: 0 2em;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  font-size: 1.1em;
+}
+
+.ul_header li{
+  justify-content: space-between;
+  width: 30%;
+  color: var(--blue);
+  font-family: 'Barlow';
+}
+
+.ul_header li:hover{
+  font-weight: bold;
+}
+
+.nav_header{
+  display: flex;
+  flex-direction: row;
+  padding: 2em;
+  margin: 5em;
+  justify-content: center;
+}
+
+.header_button {
+  background-color: var(--rose);
+  border: none;
+  color: white;
+  height: 40px;
+  width: 160px;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:1.2em 0;
+}
+
+.header_button:hover{
+  background-color: var(--blue);
+}
+
+.header_banner{
+  background-color: var(--beige);
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hb_first{
+  color: var(--rose);
+  font-size: 1.2em;
+  padding-right: 1em;
+  letter-spacing: 3px;
+  font-family: 'Barlow';
+}
+
+.hb_second{
+  font-family: 'Homemade Apple';
+  font-size: 4em;
+  color: white;
+  font-weight:100;
+}
+
+@media only screen and (max-width: 1263px){
+  .ul_header{
+    flex-direction: column;
+    width: 30%;
+  }
+  .h1_header{
+    font-size: 3em;
+  }
+  .nav_header{
+    margin: 5em 0 5em 5em;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .header_banner{
+    flex-direction: column;
+  }
+}
+
+
+
