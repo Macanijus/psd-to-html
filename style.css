@@ -48,6 +48,11 @@ a {
   width: 30px;
   margin: 5px;
 }
+
+.footer-nav a:hover {
+  color: var(--rose)
+}
+
 .foot-rights {
   margin: 10px;
   font-family: sans-serif;
@@ -93,7 +98,7 @@ a {
   font-weight: bold;
   font-size: 24px;
   padding: 25px 10px 0 0;
-  margin-left: 17%;
+  margin-left: 10%;
 }
 
 .contact-header-cursiv {
@@ -312,16 +317,20 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 680px;
+  margin: auto;
 }
 
 .part3-box {
   margin: 10px;
   width: 410px;
   height: 300px;
-
   border: 1px solid lightgray;
 }
+
+.part3-box:hover {
+  border: 2px solid var(--rose);
+}
+
 .part3-img2 {
   width: 380px;
   height: 200px;
@@ -368,7 +377,7 @@ a {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 40%;
+  height: 36em;
 }
 .part-two-text {
   width: 70%;
@@ -413,7 +422,6 @@ a {
 .p2-service-section {
   background-color: var(--blue);
   flex-direction: column;
-  margin-top: 8%;
   color: white;
 }
 .p2-small-content {
@@ -462,6 +470,15 @@ a {
   cursor: pointer;
 }
 
+.p2-learn-more-btn:hover {
+  background-color: var(--beige);
+  color: var(--blue);
+}
+
+.p2-single-item h4 {
+  font-family: 'barlow';
+}
+
 .header {
   background-image: url("./assets/girl_mountain_small.png");
   background-size: cover;
@@ -502,7 +519,7 @@ a {
   display: flex;
   flex-direction: row;
   padding: 2em;
-  margin: 5em;
+  margin: 0em 5em 5em 5em;
   justify-content: center;
 }
 
