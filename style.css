@@ -13,6 +13,141 @@
 }
 
 
+
+.contact-container {
+  width: 100%;
+  height: 620px;
+  background-color: var(--beige);
+  padding: 48px 0;
+  justify-content: center;
+}
+
+.contact-container, .contact-input-message-container, .contact-input-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-header {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 40%;
+}
+
+.contact-header-one{
+  color: var(--blue);
+  font-family: 'barlow';
+  font-weight: bold;
+  font-size: 24px;
+  padding: 25px 10px 0 0; 
+  margin-left: 17%;
+}
+
+.contact-header-cursiv {
+  color: var(--rose);
+  font-family: 'Homemade Apple';
+  font-size: 48px;
+  padding-bottom: -20px;
+}
+
+.contact-text {
+  font-family: 'barlow';
+  color: #fff;
+  width: 25%;
+  text-align: center;
+  line-height: 24px;
+  margin: 10px auto 24px auto;
+}
+
+.contact-name-container, .contact-email-phone-container {
+  width: 30%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5%;
+  justify-content: center;
+  margin: 0 auto 12px auto;
+}
+
+.contact-input-message-container {
+  width: 30%;
+  margin: 0 auto 32px auto;
+}
+
+
+
+#firstname, #lastname, #email, #phone, #message {
+  margin-bottom: 12px;
+}
+
+.contact-input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  padding-left: 20px; 
+}
+
+#firstname, #lastname, #email, #phone, #message, 
+.contact-input::placeholder,
+.contact-input-message::placeholder {
+  color: var(--rose);
+  font-family: 'barlow';
+}
+
+.contact-input-message {
+  width: 100%;
+  height: 40px;
+  border: none;
+  padding-left: 20px; 
+}
+
+.contact-input:hover, .contact-input-message:hover {
+  border: solid 1px var(--rose)
+}
+
+.contact-button {
+  width: 200px;
+  height: 40px;
+  border: none;
+  font-family: 'barlow';
+  margin: 0 auto 0 auto;
+  background-color: var(--beige-dark);
+  color: #fff;
+}
+
+.contact-button:hover {
+  background-color: var(--rose);
+}
+
+@media screen and (max-width: 1500px) {
+  .contact-header,
+  .contact-text {
+    width: 50%;
+  }
+  .contact-name-container, .contact-email-phone-container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .contact-header,
+  .contact-text {
+    width: 70%;
+  }
+  .contact-name-container, .contact-email-phone-container {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .contact-header,
+  .contact-text {
+    width: 90%;
+  }
+  .contact-name-container, .contact-email-phone-container {
+    width: 90%;
+  }
+}
+
 /*part3 - text section with background image */
 
 .part3-background-picture {
@@ -367,5 +502,6 @@
     flex-direction: column;
   }
 }
+
 
 
