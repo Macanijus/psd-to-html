@@ -11,3 +11,80 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.header{
+  background-image: url('./assets/girl_mountain_small.png');
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.h1_header{
+  font-family: 'Homemade Apple';
+  color: var(--blue);
+  font-size: 2em;
+  letter-spacing: -2px;
+  margin-top: 0.1em;
+}
+
+.ul_header{
+  list-style-type: none;
+  margin-top: 1.5em;
+  margin-left: 5em;
+  padding: 0 2em;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  font-size: 1.1em;
+}
+
+.ul_header li{
+  justify-content: space-between;
+  width: 30%;
+  color: var(--blue);
+  font-family: 'Barlow';
+}
+
+.nav_header{
+  display: flex;
+  flex-direction: row;
+  padding: 2em;
+  margin: 5em;
+  justify-content: center;
+}
+
+.header_button {
+  background-color: var(--rose);
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:0.5em 0;
+}
+
+.header_banner{
+  background-color: var(--beige);
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hb_first{
+  color: var(--rose);
+  font-size: 1.2em;
+  padding-right: 1em;
+  letter-spacing: 3px;
+  font-family: 'Barlow';
+}
+
+.hb_second{
+  font-family: 'Homemade Apple';
+  font-size: 4em;
+  color: white;
+  font-weight:100;
+}
