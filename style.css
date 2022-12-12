@@ -1,13 +1,65 @@
 :root {
-  --beige: #E1DAD3;
-  --rose: #C68F91;
-  --blue: #49667B;
-  --blue-footer: #263C4B;
-  --beige-dark: #D9BDB2;
+  --beige: #e1dad3;
+  --rose: #c68f91;
+  --blue: #49667b;
+  --blue-footer: #263c4b;
+  --beige-dark: #d9bdb2;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+/* Footer style goes here */
+footer {
+  background-color: var(--blue-footer);
+  height: 30%;
+  width: 100%;
+  color: white;
+  text-align: center;
+  bottom: 0;
+}
+.footer-item {
+  padding: 30px 30px;
+}
+#footer-title {
+  color: var(--rose);
+  font-family: Kristi;
+  font-size: 3em;
+}
+#foot-nav {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  font-family: sans-serif;
+  margin: 10px;
+}
+#foot-nav li {
+  margin: 5px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.footer-social-media img {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+.foot-rights {
+  margin: 10px;
+  font-family: sans-serif;
+}
+@media only screen and (max-width: 400px) {
+  #foot-nav,
+  .footer-social-media {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+  .footer-social-media {
+    align-items: center;
+  }
 }
